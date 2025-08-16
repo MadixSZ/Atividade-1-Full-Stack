@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: Helveitca, Arial, sans-serif;
+  text-align: center;
+  background-color: #f1caf5;
+}
+
+/* Menu */
+nav ul {
+  list-style: none;
+  padding: 15px;
+  background: #b164f0;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  color: #f1caf5;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 07px;
+}
+
+
+/* Textos */
+h1, h4{
+  margin-top: 20px;
+  color: #2c2c2c;
+  display: block;
+}
+
+/* Clases */
+.grupo {
+  display: block;
+  justify-content: center;
+  margin-top: 30px;
+  display: flex;
+}
+
+.grupo div {
+  display: flex;               
+  flex-direction: column;      
+  align-items: center;
+  padding: 5px 5px;
+}
+
+.grupo img {
+  width: 350px;
+  height: 300px;
+  object-fit: cover;
+}
+
+
